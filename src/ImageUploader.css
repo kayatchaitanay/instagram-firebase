@@ -1,0 +1,84 @@
+.imageUpload{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background: rgba(102, 110, 112, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+progress[value] {
+    /* Reset the default appearance */
+    /* -webkit-appearance: none; */
+    /* appearance: none; */
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    background-color: #0095f6;
+    background-color: #0095f6;
+}
+
+.uploader{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.filePicker{
+    background: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    width: 100%;
+}
+
+input::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.877);
+}
+
+input{
+    background: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 249, 249);
+    border-radius: 4px;
+    width: 100%;
+    color: white;
+    outline: none;
+    padding: 5px 10px;
+    margin-top: 4px;
+}
+
+
+.uploadBtn{
+    background: #0095f6;
+    color: white;
+    font-weight: 600;
+    padding: 8px 28px;
+    outline: none;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    /* margin: 20px; */
+    width: 100%;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 462px){
+    .uploader{
+        width: 90%;
+    }
+}

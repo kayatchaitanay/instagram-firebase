@@ -1,0 +1,106 @@
+.post{
+    background: white;
+    border: 1px solid lightgray;
+    width: 36rem;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+
+.post__image{
+    width: 100%;
+}
+
+.post__header{
+    display: flex;
+    align-items: center;
+}
+
+.post__avatar{
+    margin: 10px;
+}
+.post__username{
+    font-size: 18px;
+}
+
+.post__caption{
+    margin: 10px 20px;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post__comments{
+    margin: 20px 50px;
+    background: rgb(235, 235, 235);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.post__comments strong{
+    font-weight: 500;
+}
+
+.post__commentCount{
+    margin: 20px;
+    opacity: 0.5;
+    margin-top: 0px;
+}
+
+.post__form{
+    display: flex;
+    padding: 0;
+}
+
+.post__input{
+    width: 85%;
+    border: none;
+    border-top: 1px solid lightgray;
+    border-radius: 0;
+    color: black;
+    background: none;
+    padding: 10px;
+}
+.post__button{
+    width: 15%;
+    border: none;
+    border-radius: 0;
+    background-color: rgb(25, 154, 235); 
+    color: white;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.post__input::-webkit-input-placeholder{
+    color: rgba(34, 34, 34, 0.678);
+}
+
+
+
+@media screen and (max-width: 743px){
+    .post{
+        width: 96%;
+    }
+}
+@media screen and (max-width: 462px){
+    .post{
+        width: 100%;
+    }
+
+    .post__caption{
+        font-size: 16px;
+    }
+    .post__comment{
+        font-size: 15px;
+    }
+    .post__button{
+        font-size: 15px;
+    }
+    .post__input{
+        padding: 8px;
+    }
+}

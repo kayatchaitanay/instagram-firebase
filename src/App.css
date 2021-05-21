@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app{
+    background-color: #f1f1f2;
+    width: 100vw;
+}
+
+.app__header{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    box-sizing: border-box;
+    padding: 8px 40px;
+}
+
+.app__leftHead > button{
+    border: 1px solid lightgray;
+    padding: 0 10px;
+}
+
+.uploadDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    border-top: lightgray 1px solid;
+}
+
+.uploadDiv > button{
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding: 5px 13px;
+    border-radius: 50%;
+    background-color: rgb(25, 154, 235);
+}
+
+.app__modal{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background: rgba(102, 110, 112, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.app__modal input{
+    background: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 249, 249);
+    border-radius: 4px;
+    width: 90%;
+    color: white;
+    font-size: 17px;
+    outline: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.app__modal button{
+    width: 90%;
+    background: #0095f6;
+    color: white;
+    font-weight: 600;
+    padding: 8px 28px;
+    outline: none;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    /* margin: 20px; */
+    font-size: 16px;
+}
+
+.app__modal img{
+    filter: invert(100%);
+    width: 140px;
+}
